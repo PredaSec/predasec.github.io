@@ -40,4 +40,4 @@ This blog serves as my personal knowledge base and writeup space. You'll find:
 
 - GitHub: [github.com/predasec](https://github.com/predasec)
 - LinkedIn: [linkedin.com/in/mohamedaminejouini](https://linkedin.com/in/mohamedaminejouini)
-- Email: [mohamedaminejouini18@gmail.com](mailto:mohamedaminejouini18@gmail.com)
+- Email: <a href="mailto:mohamedaminejouini18@gmail.com">mohamedaminejouini18@gmail.com</a>
