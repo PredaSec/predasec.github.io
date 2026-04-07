@@ -1,0 +1,33 @@
+<!-- Navigation buttons at the bottom of the post. -->
+<!-- Swapped: "previous" (older/earlier date) is shown on the right as "Next Module" -->
+<!-- and "next" (newer/later date) is shown on the left as "Previous Module" -->
+
+<nav class="post-navigation d-flex justify-content-between" aria-label="Post Navigation">
+  {% if page.next.url %}
+    <a
+      href="{{ site.baseurl }}{{ page.next.url }}"
+      class="btn btn-outline-primary"
+      aria-label="Previous"
+    >
+      <p>{{ page.next.title }}</p>
+    </a>
+  {% else %}
+    <div class="btn btn-outline-primary disabled" aria-label="Previous">
+      <p>-</p>
+    </div>
+  {% endif %}
+
+  {% if page.previous.url %}
+    <a
+      href="{{ site.baseurl }}{{ page.previous.url }}"
+      class="btn btn-outline-primary"
+      aria-label="Next"
+    >
+      <p>{{ page.previous.title }}</p>
+    </a>
+  {% else %}
+    <div class="btn btn-outline-primary disabled" aria-label="Next">
+      <p>-</p>
+    </div>
+  {% endif %}
+</nav>
